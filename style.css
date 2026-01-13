@@ -1,3 +1,39 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color: thistle;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul li a {
+  display: block;
+  color: #666666;
+  padding: 14px 16px;
+  text-decoration: none;
+
+img {
+	width: 350px;
+}
+img:hover {
+	border: dotted magenta 5px;
+	border-radius: 50%;
+	width: 200 px
+
+}
+
+h2 {
+	letter-spacing: -2px;
+	text-size: 100px;
+  word-spacing: 10px;
+	text-shadow: 2px 2px 5px aquamarine;
+	color: darkslateblue;
+	text-decoration: dashed underline;
 }
